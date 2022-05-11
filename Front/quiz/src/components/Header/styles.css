@@ -1,0 +1,77 @@
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5rem;
+
+    width: 100%;
+    height: 8rem;
+
+    background-color: rgba(51, 2, 44, 1);
+}
+
+.logo-header {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem
+}
+
+.link-header {
+    text-decoration: none;
+    color: #EBCC06;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+
+.input-group-header {
+    display: flex;
+    position: relative;
+    width: 21rem;
+    height: 2.7rem;
+}
+
+.search-input-header {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 28px;
+}
+
+.search-icon-header {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+}
+
+.login-group-header {
+    position: relative;
+}
+
+.login-btn-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 11.9rem;
+    height: 3.1rem;
+    background-color: #EBCC06;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    color: #33022C;
+
+    border-radius: 28px;
+    border: none;
+}
+
+.cadastre-se-link-header {
+    position: absolute;
+    right: 3px;
+    bottom: -17px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}

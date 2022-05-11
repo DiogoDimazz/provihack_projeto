@@ -1,9 +1,11 @@
 import './styles.css';
+import Header from '../../components/Header';
 
 function Home() {
   return (
     <div>
-      Oier
+      <Header />
+      Home
     </div>
   );
 }
